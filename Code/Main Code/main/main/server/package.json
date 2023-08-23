@@ -1,0 +1,21 @@
+{
+  "name": "animal-rescue-app",
+  "version": "1.0.0",
+  "description": "An example project with a login screen, FAQ page, contact form, and logout functionality.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aniketsrivastava81/animal-rescue-app.git"
+  },
+  "author": "Aniket",
+  "license": "MIT"
+}
